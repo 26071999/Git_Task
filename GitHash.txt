@@ -1,0 +1,13 @@
+GitHash:
+              Git is a content-addressable filesystem. ... In its simplest form, git hash-object would take the 
+             content you handed to it and merely return the unique key that would be used to store it in your Git database. 
+             The -w option then tells the command to not simply return the key, but to write that object to the database.
+
+            The git hash is made up of the following: The commit message. The file changes. The commit author
+           (and committer- they can be different).
+
+How do I get git hash?
+
+                       If you want to turn references (branches and tags) into hash, you can use git show-ref and git for-each-ref commands.
+                       Using the git reflog command is also used if you want to have the history on the head of your branches.
+                       With this command, you can find the line referring to the state you want to get back
