@@ -6,7 +6,7 @@ GitHash:
             The git hash is made up of the following: The commit message. The file changes. The commit author
            (and committer- they can be different).
 
-How do I get git hash?
+How do we get git hash?
 
                        If you want to turn references (branches and tags) into hash, you can use git show-ref and git for-each-ref commands.
                        Using the git reflog command is also used if you want to have the history on the head of your branches.
